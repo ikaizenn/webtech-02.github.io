@@ -1,0 +1,40 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="dtd.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <title>Webtech Class Test</title>
+    </head>
+    <body>
+        <h1> Document Type definition(DTD)</h1>
+        <p>A DTD defines the structure and the legal elements and attributes of an XML document.
+        </p>
+        <img class="i" style="float: left; margin-right: 50px;"  src="dtd.jpg">
+            <ol>
+            <li><strong>DTD</strong> starts with <em>&lt;!DOCTYPE delimiter</em>.</li>
+            <li>An <strong>element</strong> tells the parser to parse the document from the specified root element.</li>
+            <li><strong>DTD identifier</strong> is an identifier for the document type definition, which may be the path to a file on the system or URL to a file on the internet. If the DTD is pointing to external path, it is called <strong>external subset</strong>.</li>
+            <li>The <strong>square brackets [ ]</strong> enclose an optional list of entity declarations called <strong>internal subset</strong>.</li>
+            </ol>
+        <hr noshade="">
+        <h2>Internal DTD</h2>
+        <p>A DTD is referred to as an internal DTD if elements are declared within the XML files. To reference it as internal DTD, standalone attribute in XML declaration must be set to yes. This means the declaration works independent of external source.</p>
+        <img class="img" src="inter.png">
+        <hr noshade="">
+        <h2>External DTD</h2>
+        <p>In external DTD elements are declared outside the XML file. They are accessed by specifying the system attributes which may be either the legal .dtd file or a valid URL. To reference it as external DTD, standalone attribute in the XML declaration must be set as no. This means, declaration includes information from the external source.</p>
+        <img style="float: left" src="exter1.png">
+        <!-- <span><strong style="text-align: right" >Address.dtd</strong></span> -->
+        <img class ="dx" style="float: right" src="exter2.png">
+        <br><br><br><br><br><br>
+        <br>
+        <div style="text-align: center;">
+            <button type="button" class="btn btn-outline-dark btn-sm" style="margin-top: 10px; margin-bottom: 10px; margin-right: 20px;" onclick="window.location.href = 'index.html';"><< Previous Page</button>
+        </div>
+        <section class="footer" style="text-align: center;">
+            <p>Submitted by <strong><em style="color: brown;">Mohit Chandra Bhatt</em></strong>,<em> BTECH CSE 4th Year</em></p>
+        </section>
+    </body>
+</html>
