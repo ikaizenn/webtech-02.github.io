@@ -2,46 +2,56 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
         <title>Webtech Class Test</title>
     </head>
     <body>
-        <section class="header">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="#">CLASS TEST</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                  <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="/index.html"><strong>Home</strong> <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="/web-server/web-server-01.html"><strong>Web Server</strong></a>
-                    <a class="nav-item nav-link" href="/web-services/web-services-01.html"><strong>Web Services</strong></a>
-                    <a class="nav-item nav-link" href="/corba/corba-01.html"><strong>CORBA</strong></a>
-                  </div>
-                </div>
-            </nav>
-        </section>
-        <section class="overview">
-            <br>
-                <h1>Overview of the topics :</h1><br>
-                <h3>1. Web Servers</h3>
-                <p class="p"> A web server is server software, or hardware dedicated to running any software, that can satisfy client requests on the <strong>World Wide Web</strong>. A web server can, in general, contain one or more websites. A web server processes incoming network requests over <strong>HTTP/HTTPS</strong> and several other related protocols.
-                    <ol>
-                        <li> <strong>HTTP</strong> sends data over Port 80.</li>
-                        <li> <strong>HTTPS</strong> sends data over Port 443.</li>
-                    </ol>
-                    </p><br>
-                <h3>2. Web Services</h3>
-                <p class="p">Web services are open standard (<strong>XML, SOAP, HTTP</strong>, etc.) based web applications that interact with other web applications for the purpose of exchanging data. Web services can convert your existing applications into web applications.<br>
-                Web services are <strong>XML</strong>-based information exchange systems that use the Internet for direct <strong>application-to-application</strong> interaction. These systems can include programs, objects, messages, or documents.
-                </p><br>
-                <h3>3. CORBA</h3>
-                <p class="p"> <strong><em>The Common Object Request Broker Architecture (CORBA)</em></strong> is a specification developed by the <strong>Object Management Group (OMG)</strong>. CORBA describes a messaging mechanism by which objects distributed over a network can communicate with each other irrespective of the platform and language used to develop those objects.</p><br>
-        </section>
-        <section class="footer">
+        <h1>XML(Extensible Markup Language)</h1>
+        <p> A worldwide used system for defining data formats. It provides a system to self made tags and complex documents.In other words we can say that XML allows the users to create data of information without having the data's pre-existing structure in the file.</p>
+
+        <p>XML is usually used in various Web applications and also XML documents are used by some programs</p>
+
+        <h4>XML points:-</h4>
+        <ol type="a">
+        <li>XML is easy to generate.</li>
+        <li>Encoding structure/documents of XML are in human-friendly format.</li>
+        <li>XML has extension ending with (.xml).</li>
+        <li>With an independent data format it is supported by many programming languages and frameworks</li>
+        </ol> 
+        <table>
+        <tbody>
+            <tr>
+        <td><h3>Structure of XML document</h3>
+        <img style="margin: 0px 30px" src="struc.jpg"></td>
+
+        <td><h3>Tree structure</h3>
+        <img src="tree.gif" width="400" height="200"></td>
+        </tbody>
+        </table>
+        <h4 class="h4">Example and explanation</h4>
+        
+        <div>
+            <img class ="float" src="exam.png" style="margin-right: 200px;" >
+                <ol>
+                    <li>The first line is the XML declaration.</li>
+                    <li>The next line describes the root element of the document(<em style="color:red">&lt;note&gt;</em>).</li>
+                    <li>The next 4 lines describe 4 child elements of the root (to, from, heading, and body).<br>
+                      
+                      <em style="color: red">&emsp; &lt;to&gt;</em><strong>Mohit</strong><em style="color: red">&lt;/to&gt;</em> <br>
+                      <em style="color: red">&emsp;&lt;from></em><strong>Alpha</strong><em style="color: red">&lt;/from&gt;</em> <br>
+                      <em style="color: red">&emsp;&lt;heading></em><strong>Btech</strong><em style="color: red">&lt;/heading&gt;</em><br> 
+                      <em style="color: red">&emsp;&lt;body></em><strong>CSE Student</strong><em style="color: red">&lt;/body&gt;</em> <br>
+                      
+                    </li>
+                    <li>Final line defines the end of root element(<em style="color:red">&lt;/note&gt;</em>)
+                  </ol>
+          </div>
+          <div style="text-align: center;">
+            <button type="button" class="btn btn-outline-dark btn-sm" style="margin-top: 10px; margin-bottom: 10px; margin-right: 20px;">Next Page >></button>
+          </div>
+        <section class="footer" style="text-align: center;">
             <p>Submitted by <strong><em style="color: brown;">Mohit Chandra Bhatt</em></strong>,<em> BTECH CSE 4th Year</em></p>
         </section>
     </body>
